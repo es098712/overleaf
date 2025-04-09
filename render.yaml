@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: overleaf
+    env: docker
+    plan: free
+    dockerfilePath: ./docker-compose.yml
+    autoDeploy: true
